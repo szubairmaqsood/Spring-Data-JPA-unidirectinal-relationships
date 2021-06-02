@@ -9,7 +9,7 @@ class Customer {
     private var id:Long;
     private var name:String;
     /*
-      In Customer a foreign key column will be made
+      In Customer a foreign key column will be made in customer table as it is owner
      */
     @OneToOne
     @JoinColumn(name = "fk_shipping_Address")
