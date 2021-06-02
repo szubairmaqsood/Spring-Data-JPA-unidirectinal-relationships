@@ -1,4 +1,4 @@
-package com.example.Spring.Data.Unidirectional.relationships.models
+package com.example.Spring.Data.Unidirectional.relationships.models_ManyToOne
 
 import javax.persistence.*
 
